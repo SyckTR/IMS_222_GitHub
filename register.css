@@ -1,0 +1,54 @@
+/*HEADER*/
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+
+/* FORM SETTINGS */
+fieldset {
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    margin: auto
+}
+
+label {
+    float: left;
+    width: 15em;
+    text-align: right;
+}
+
+input,
+select,
+textarea {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+input:required {
+    border: 2px solid blue;
+}
+
+input[type="submit"] {
+    width: 7em;
+    background-color: #0c850c;
+    color: white;
+    margin-left: 4.6em
+}
+
+
+/* ASIDE FIX */
+aside {
+    padding-left: 25px;
+    border-left: 1px solid green;
+}
+
+.courses {
+    border: none;
+    padding: 0
+}
